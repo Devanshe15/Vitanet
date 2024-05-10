@@ -1,0 +1,51 @@
+.analysis1,
+.research-and1 {
+  margin: 0;
+}
+.research-and-analysis-container1 {
+  position: relative;
+}
+.research-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+}
+.anonymous-data-contribution1 {
+  margin-bottom: 0;
+}
+.anonymous-data-contribution-a1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xs);
+}
+.anonymous-data-contribution-container1 {
+  width: 98.9px;
+  position: relative;
+  font-size: var(--font-size-6xs-3);
+  color: var(--color-black);
+  display: inline-block;
+}
+.card-13 {
+  align-self: stretch;
+  border-radius: 10.99px;
+  background: linear-gradient(
+    -86.62deg,
+    #1e235f 2.49%,
+    #2b3270 18.22%,
+    #798fdb 63.18%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-4xs) var(--padding-36xl-5);
+  gap: var(--gap-4xs-5);
+  z-index: 7;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--black-black-100);
+  font-family: var(--font-prosto-one);
+}

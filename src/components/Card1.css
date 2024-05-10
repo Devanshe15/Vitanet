@@ -1,0 +1,94 @@
+.img-icon2 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  object-fit: contain;
+}
+.faster,
+.research-progress {
+  margin: 0;
+}
+.faster-research-progress-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.streamlined-processes-and {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  font-family: var(--font-poppins);
+}
+.text5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.text6 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.iconarrow1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.bttn1,
+.card-2 {
+  display: flex;
+  align-items: center;
+}
+.bttn1 {
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-base);
+  color: var(--color-deepskyblue-100);
+  font-family: var(--font-poppins);
+}
+.card-2 {
+  flex: 1;
+  box-shadow: 0 4px 20.4px rgba(56, 182, 255, 0.13);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gray-300);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-5xl) var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  min-width: 285px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--tittle);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 1050px) {
+  .faster-research-progress-container {
+    font-size: var(--font-size-7xl);
+    line-height: 33px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faster-research-progress-container {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .card-2 {
+    gap: var(--gap-base);
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
