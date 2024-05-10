@@ -19,11 +19,11 @@ const LandingPage = () => {
                     <h1 className="vitanet">VITANET</h1>
                     <nav className="navigation-wrapper">
                       <nav className="navigation">
-                        <h3 className="home">Home</h3>
-                        <h3 className="about">About</h3>
-                        <h3 className="services">Services</h3>
-                        <h3 className="policies">Policies</h3>
-                        <h3 className="faq">FAQ</h3>
+                        <a href="an-intelligent-platform" className="home">Home</a>
+                        <a href="#about" className="about">About</a>
+                        <a href="#services" className="services">Services</a>
+                        <a href="#policies" className="policies">Policies</a>
+                        <a href="#faq" className="faq">FAQ</a>
                       </nav>
                     </nav>
                   </div>
@@ -31,9 +31,9 @@ const LandingPage = () => {
                 <div className="home1">
                   <div className="text">
                     <h1 className="safeguarding-the-confidentiali-container">
-                      <span className="safeguarding-the">{`Safeguarding the  Confidentiality  of  `}</span>
+                      <span className="safeguarding-the">{`Unlocking Potential,Changing Lives:`}</span>
                       <span className="sensitive-healthcare">
-                        Sensitive Healthcare Information!
+                      Vitanet’s Revolutionary Approach to Clinical Trials
                       </span>
                     </h1>
                     <div className="buttons">
@@ -101,13 +101,14 @@ const LandingPage = () => {
                       <b className="boto2">Know More</b>
                     </div>
                   </button>
+                  
                   <h1 className="services1">Services</h1>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        {/* <section className="leafy-structure">
+        <section className="leafy-structure">
           <div className="tree-composition">
             <div className="tittle-wrapper">
               <div className="tittle">
@@ -121,9 +122,9 @@ const LandingPage = () => {
                 </h1>
               </div>
             </div>
-            <img className="app-home-bk" alt="" src="/app-home-bk@2x.png" />
+            <img className="app-home-bk" alt="" src="/app_home.png" />
           </div>
-        </section> */}
+        </section>
         <FaqsContent />
         <FooterGraphic />
         <section className="light-effects">
@@ -304,72 +305,16 @@ const LandingPage = () => {
                   />
                 </div>
                 <div className="vuesaxboldelement-41">
-                  <img
-                    className="vuesaxboldelement-4-icon1"
-                    alt=""
-                    src="/vuesaxboldelement4-1.svg"
-                  />
+                  
+          
+
                 </div>
-              </div>
             </div>
-            <div className="a">Home</div>
-            <div className="home-child" />
-          </div>
-          <div className="confg">
-            <div className="wrapper-image-2-parent">
-              <div className="wrapper-image-2">
-                <img className="image-2-icon" alt="" src="/image-2@2x.png" />
-              </div>
-              <img className="image-2-icon1" alt="" src="/image-2-1@2x.png" />
-            </div>
-            <div className="username">
-              <p className="bandita">Bandita</p>
-              <p className="singh">Singh</p>
-            </div>
-            <img
-              className="vuesaxbulkarrow-down-icon"
-              alt=""
-              src="/vuesaxbulkarrowdown.svg"
-            />
-          </div>
-          <div className="vuesaxlinearsetting-parent">
-            <div className="vuesaxlinearsetting">
-              <img
-                className="vuesaxlinearsetting-icon"
-                alt=""
-                src="/vuesaxlinearsetting.svg"
-              />
-            </div>
-            <img className="frame-child" alt="" src="/vector-1.svg" />
-          </div>
-        </div>
-        <b className="categories">Categories</b>
-        <div className="browse-our-different">Browse our different areas!</div>
-        <div className="card-11">
-          <div className="research-and-analysis-container">
-            <p className="research-and">{`Research and `}</p>
-            <p className="analysis">Analysis</p>
-          </div>
-          <div className="anonymous-data-contribution-container">
-            <ul className="anonymous-data-contribution-a">
-              <li className="anonymous-data-contribution">
-                Anonymous Data Contribution: Allow users to contribute
-                anonymized data for research purposes.
-              </li>
-              <li>
-                Aggregate Insights: Provide anonymized insights and trends based
-                on user data for research and analysis.
-              </li>
-            </ul>
+            
           </div>
         </div>
       </div>
-      <div className="app-home1">
-        <div className="app-home2">
-          <Navigation1 />
-          <FrameComponent />
-        </div>
-      </div>
+    </div>
     </div>
   );
 };

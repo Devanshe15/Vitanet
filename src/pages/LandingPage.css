@@ -23,7 +23,7 @@
 }
 .vitanet {
   font-weight: 800;
-  min-width: 126px;
+  min-width: 208px;
   white-space: nowrap;
 }
 .about,
@@ -52,6 +52,7 @@
   margin: 0;
   display: flex;
   align-items: flex-start;
+  text-decoration: none;
 }
 .navigation {
   align-self: stretch;
@@ -63,6 +64,10 @@
   color: var(--tittle);
   font-family: var(--font-poppins);
 }
+.navigation a{
+  text-decoration: none;
+  color: white;
+}
 .navigation-wrapper {
   width: 478px;
   flex-direction: column;
@@ -70,6 +75,7 @@
   padding: var(--padding-8xs-5) 0 0;
   box-sizing: border-box;
   max-width: 100%;
+  text-decoration: none;
 }
 .frame-container,
 .vitanet-parent {
@@ -104,7 +110,7 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: inherit;
+  font-size: 55px;
   font-weight: 700;
   font-family: inherit;
 }
@@ -187,7 +193,7 @@
   max-width: 100%;
 }
 .text {
-  width: 714px;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
