@@ -22,7 +22,7 @@ const LandingPage = () => {
                         <a href="an-intelligent-platform" className="home">Home</a>
                         <a href="#about" className="about">About</a>
                         <a href="#services" className="services">Services</a>
-                        <a href="#policies" className="policies">Policies</a>
+                        <a href="" className="policies">Survey</a>
                         <a href="#faq" className="faq">FAQ</a>
                       </nav>
                     </nav>
@@ -37,7 +37,7 @@ const LandingPage = () => {
                       </span>
                     </h1>
                     <div className="buttons">
-                      <button className="button">
+                      <button className="button" href="components/login.js">
                         <b className="boto">Login</b>
                       </button>
                       <button className="button1">
